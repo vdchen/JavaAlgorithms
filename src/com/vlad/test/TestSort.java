@@ -1,8 +1,10 @@
-package com.vlad.sort;
+package com.vlad.test;
 
 import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.Test;
+
+import com.vlad.sort.QuickSort;
 
 import java.util.Arrays;
 import java.util.Random;
@@ -11,7 +13,7 @@ import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.fail;
 
 
-public class SortTest {
+public class TestSort {
 
 	private final static int SIZE = 7;
     private final static int MAX = 21;
